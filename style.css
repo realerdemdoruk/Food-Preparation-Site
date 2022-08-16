@@ -6,8 +6,9 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-}
+    background-color: #f3f3f3;
 
+}
 
 .container{
     /* display: flex; */
@@ -17,18 +18,40 @@ body{
     /* display: none; */
 }
 
-
 .nav{
     margin-top: 5rem;
     text-align: center;
 }
 
-
 .row{
     padding: 100px;
-    background-color: red;
+
     margin-top: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+#text{
+    margin-top: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+.col{
+    width: 50%;
+    /* justify-content: space-evenly; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+p{
+    margin-top: 1rem;
+}
+
+ul{ 
+    list-style-type: circle;
 }
