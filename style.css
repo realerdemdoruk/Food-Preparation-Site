@@ -1,25 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #f3f3f3;
-
 }
 
-.container{
-    /* width: 100%; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* min-height: 100vh; */
-    /* display: none; */
-}
-
-button{
+button {
     margin-top: 1rem;
     width: 10%;
     height: 2rem;
@@ -28,94 +18,71 @@ button{
     margin-top: 2rem;
 }
 
-.nav{
+.nav {
     margin-top: 5rem;
     text-align: center;
 }
 
-.row{
+.row {
     padding: 100px;
-    /* margin-top: 4rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#text{
+#text {
     margin-top: 1rem;
 }
 
-img {
-	max-width: 100%;
+img,
+iframe {
+    max-width: 100%;
+    border-radius: 1rem;
 }
 
-.col{
+.col {
     width: 50%;
-    /* justify-content: space-evenly; */
-    /* padding-left: 1rem; */
-    /* padding-right: 1rem; */
-
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-p{
+p {
     margin-top: 1rem;
 }
 
-ul{ 
+ul {
     list-style-type: circle;
 }
 
-
-
-
-/* responsive */
-
-
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    
-    body{
-        background-color: red;     
+
+    body {
+        background-color: red;
     }
 
-    h3{
+    h3 {
         margin-top: 1rem;
     }
 
-
-    button{
-        height: 3rem;
+    button {
+        height: 4rem;
     }
 
-
-
-    .col{
+    .col {
         width: 100%;
         background-color: orange;
         flex-direction: column;
     }
-    
-    .row{
-        /* padding: 1px; */
-            width: 100%;
-            background-color: orange;
-            flex-direction: column;
 
-    }
-
-    iframe{
-        margin-top: 1rem;
-        /* margin: 2rem; */
+    .row {
         width: 100%;
-    
-        /* display: ; */
+        background-color: orange;
+        flex-direction: column;
     }
 
-
-
-
-    
-
-
-  }
+    iframe {
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
