@@ -11,11 +11,21 @@ body{
 }
 
 .container{
+    /* width: 100%; */
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: space-between; */
     /* min-height: 100vh; */
     /* display: none; */
+}
+
+button{
+    margin-top: 1rem;
+    width: 10%;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 2rem;
 }
 
 .nav{
@@ -25,8 +35,7 @@ body{
 
 .row{
     padding: 100px;
-
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,8 +52,8 @@ img {
 .col{
     width: 50%;
     /* justify-content: space-evenly; */
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
 
 }
 
@@ -55,3 +64,58 @@ p{
 ul{ 
     list-style-type: circle;
 }
+
+
+
+
+/* responsive */
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    body{
+        background-color: red;     
+    }
+
+    h3{
+        margin-top: 1rem;
+    }
+
+
+    button{
+        height: 3rem;
+    }
+
+
+
+    .col{
+        width: 100%;
+        background-color: orange;
+        flex-direction: column;
+    }
+    
+    .row{
+        /* padding: 1px; */
+            width: 100%;
+            background-color: orange;
+            flex-direction: column;
+
+    }
+
+    iframe{
+        margin-top: 1rem;
+        /* margin: 2rem; */
+        width: 100%;
+    
+        /* display: ; */
+    }
+
+
+
+
+    
+
+
+  }
