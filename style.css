@@ -16,6 +16,11 @@ button {
     border-radius: 10px;
     background-color: white;
     margin-top: 2rem;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    background-color: coral;
 }
 
 .nav {
